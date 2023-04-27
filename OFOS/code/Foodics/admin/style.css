@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 80%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 10px 30px;
+    text-align:  left;
+}
+table tr td{
+    padding: 10px 30px;
+
+}
+.btn-primary{
+    background-color:#2980b9;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+  }
+  .btn-primary:hover{
+    background-color:#3498db;
+  }
+  .btn-secondary{
+    background-color:#27ae60;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+  }
+  .btn-secondary:hover{
+    background-color:#2ecc71;
+  }
+  .btn-denger{
+    background-color:#c0392b;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+  }
+  .btn-denger:hover{
+    background-color:#e74c3c;
+  }
+.input-group{
+    width: 50%;
+    padding: 1%;
+}
+.success{
+  color: #3498db;
+}
+.error{
+  color: #e74c3c;
+}
+/* css for menu*/
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.menu ul li  {
+    display: inline-table;
+    padding: 1%;
+    width: 60px;
+  }
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: palevioletred;
+}
+.menu ul li a:hover{
+    color:pink;
+}
+
+/* css for main content*/
+.main-content{
+    margin: 1% 0;
+    padding: 3%;
+    color:black;
+}
+.col-4{
+    width: 15%;
+    background-color: whitesmoke;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+.footer{
+    color: palevioletred;
+    padding: 2%;
+    font-weight: bold;
+}
+/* css for login */
+.login{
+  width: 30%;
+  border:1px solid gray ;
+  margin: 10% auto;
+  padding: 2%;
+  border-radius: 20px;
+}
+.add{
+  width: 30%;
+  background-color: whitesmoke;
+  border:2px solid gray ;
+  margin: 10% auto;
+  padding: 2%;
+  border-radius: 20px;
+
+}
